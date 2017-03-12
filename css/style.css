@@ -12,14 +12,13 @@ body {
 	border: 0;
 }
 #logo-img {
-	/*background: url(rsz_fox1.png) no-repeat;*/
-	background-image: url(rsz_fox1.png) no-repeat;
+	background: url('../images/rsz_fox1.png') no-repeat;
 	width: 108px;
 	height: 70px;
 	margin: 10px 15px 10px 0;
 }
 #logo-img1 {
-	background: url(/images/rsz_award.jpg) no-repeat;
+	background: url('../images/rsz_award.jpg') no-repeat;
 	width: 30px;
 	height: 30px;
 	/*margin: 10px 15px 10px 0;*/
@@ -175,11 +174,11 @@ panel-footer div.row {
 box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-	background: url(/images/010.jpg) no-repeat;
+	background: url('../images/010.jpg') no-repeat;
 	background-position: center;
 }
 #specials-tile {
-	background: url(/images/011.jpg) no-repeat;
+	background: url('../images/011.jpg') no-repeat;
 	background-position: center;
 }
 #menu-tile span, #specials-tile span {
@@ -295,7 +294,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.jumbotron {
-		background: url(/images/rsz_013.jpg);
+		background: url('../images/rsz_013.jpg');
 		height: 675px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
@@ -306,13 +305,13 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('/images/rsz_fox1.png') no-repeat;
+    background: url('../images/rsz_fox1.png') no-repeat;
     width: 110px;
     height: 100px;
     margin: 5px 5px 5px 0;
   }
   .jumbotron {
-		background: url(/images/rsz_013.jpg) no-repeat;
+		background: url('../images/rsz_013.jpg') no-repeat;
 		height: 558px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
@@ -322,7 +321,7 @@ h3.menu-item-title {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 .jumbotron {
-		background: url(/images/res013.jpg);
+		background: url('../images/res013.jpg');
 		height: 432px;
 		box-shadow: 0 0 50px #ffbb33;
 		border: 2px solid #ffbb33;
